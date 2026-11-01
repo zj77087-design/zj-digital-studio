@@ -3209,7 +3209,17 @@ textarea:focus-visible {
   color: #c4b5fd;
 }
 
-/* Smooth Scrolling */
+
+/* =====================================
+   SMOOTH PAGE SCROLLING
+===================================== */
+
 html {
     scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
