@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zj77087-design.github.io/zj-digital-studio/sitemap.xml
