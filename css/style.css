@@ -3208,3 +3208,8 @@ textarea:focus-visible {
 .site-footer .footer-tagline {
   color: #c4b5fd;
 }
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
